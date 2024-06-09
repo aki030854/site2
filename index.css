@@ -1,0 +1,679 @@
+
+
+
+
+/*================
+PC用のスタイル
+=================*/
+
+
+
+@media screen and (min-width: 768px) {
+
+
+
+    body {
+        max-width: 1080px;
+        min-width: 960px;
+        margin: 0 auto ;
+    }
+
+    /* ヘッダー */
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header > img {
+        width: 20%;
+    }
+
+    /* ナビゲーションのレイアウト */
+    #nav-pc {
+        font-size: 14px;
+        padding-top: 15px;
+    }
+/* ナビゲーションのリンクの装飾設定 */
+#nav-pc>a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#nav-pc>a:link {
+    color: #0d0d0d;
+}
+
+#nav-pc>a:visited {
+    color: #0d0d0d;
+}
+
+#nav-pc>a:hover {
+    color: #0d0d0d;
+    text-decoration: underline;
+}
+
+#nav-pc>a:active {
+    color: #0d0d0d;
+}
+
+/* メインビジュアル*/
+#growth {
+    position: relative;
+    height: 400px;
+}
+
+#growth-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: palevioletred;
+    max-width: 620px;
+    height: 100%;
+    width: 100%;
+    z-index: 11;
+}
+
+#growth-message>h1 {
+    font-size: 48px;
+    margin: 70px 0px 0 50px;
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#growth-message>h3 {
+    font-size: 30px;
+    font-style: bold;
+    margin: 30px 0 0 50px;
+}
+
+#growth-message>p {
+    font-size: 20px;
+    color: #000;
+    margin: 0 0 0 50px;
+}
+
+#growth-message>h1>span,
+#growth-message>h3>span {
+    color: cadetblue;
+}
+
+#growth>img {
+    max-width: 60%;
+    max-height: 90%;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    z-index: 10;
+}
+
+#news {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.news_title {
+    padding-left: 200px;
+}
+
+.news_title>h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.news_title >p{
+    color:palevioletred ;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#outside{
+    border-top-style: solid;
+    border-top-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-color:gainsboro; 
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+#news-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border-bottom-color: #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+
+
+.tableheader,
+.new,
+.notice {
+    padding: 15px;
+    border-bottom-color: #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.news-dec{
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgb(191, 40, 90);
+    color: white;
+    width: 90px;
+    text-align: center;
+}
+.notice {
+    width: 300px;
+}
+
+#technology {
+    background-color:#fafafa ;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.technology_title >p{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: palevioletred;
+}
+
+.technology_title >h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-a {
+    margin: 20px;
+    display: flex;
+}
+
+.about-a >p{
+    width: 50%;
+    padding: 50px;
+    text-align: left;
+
+}
+
+.about-a >img {
+    width: 41%;
+    padding: 30px;
+    text-align: left;
+}
+.service_title>p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: palevioletred;
+}
+
+.service_title>h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.service-acount{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
+}
+
+.left-img{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.education-left>h3{
+    text-align: center;
+}
+
+.service-ing{
+    width: 62%;
+    margin: 0 auto;
+
+}
+
+.right-img {
+
+    width:100%;
+    height: 100%;
+}
+
+
+
+
+.education-content{
+    display: flex;
+    
+
+    background-color: red;
+}
+
+.service-img{
+    width: 100%;
+    height: 50%;
+
+}
+
+.education-co{
+    display: flex;
+    width: 100%;
+
+    background-color: blue;
+}
+
+
+
+
+#blog {
+    background-color: #fafafafa;
+}
+
+.blog_title {
+    padding: 20px;
+}
+
+.blog_title >h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.blog_title >p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: palevioletred;
+}
+
+.tree-blog {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.blog-card{
+    position: relative;
+    width:  30%;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+.blog-img{
+    position: relative;
+}
+
+.blog-img>p{
+    position: absolute;
+    color: white;
+    top: 0;
+        /*左上に配置*/
+    left: 0;
+        /*左上に配置*/
+    background-color: palevioletred;
+    border-radius: 20px 0 0 0;
+    padding: 0.3rem 0.5rem;
+        /*文字の回りの余白*/
+    margin: 0;
+}
+
+.blog-img img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+
+
+
+
+
+.blog-content{
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 25px;
+}
+
+.tag {
+    font-size: 14px;
+    text-align: right;
+}
+
+.blog-day{
+    display: inline-block;
+    color: #888888;
+}
+
+.blog-tag {
+    display: inline-block;
+    margin-left: 55px;
+    color: #888888;
+}
+
+.blog-botton{
+    width:20%;
+    padding:5px;
+    color:palevioletred;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    border: 3px solid palevioletred;
+    margin: 10px auto 0;
+
+    }
+
+.company-tit {
+    margin-left: 140px;
+}
+
+.company-tit>h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.company-tit>p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: palevioletred;
+}
+
+#company-table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.company-tableheader,.company-cell{
+
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+
+}
+
+.company-tableheader{
+    background-color: #f2f2f2;
+}
+
+#imgs{
+    display: flex;
+    margin-top: 30px;
+}
+
+.recruit,.interview{
+    position: relative;
+}
+
+.recruit-img,.interview-img{
+    width: 30%;
+
+
+}
+
+.recruit-content,.interview-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.question-tit{
+text-align: center;
+margin-top: 5em;
+}
+
+
+
+.vertical{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-line{
+
+            width: 0.2em;
+            /* 縦線の幅 */
+            height: 3em;
+            /* 縦線の高さ */
+            background-color: palevioletred;
+            /* 縦線の色 */
+        }
+.practice__btn {
+    width: 200px;
+    padding: 10px 0;
+    color: #fff;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #ff5800, #8b00be);
+    text-align: center;
+    box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
+    margin: 100px auto 0;
+    display: block;
+    border-bottom: 5px solid #C75467;
+    margin-top: 20px;
+}
+
+.practice__btn:before {
+    content: url(img/cman.png);
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+body {
+        min-width: 375px;
+        margin: 0;
+    }
+/* ヘッダー */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > img {
+    width: 30%;
+    height: 30%;
+}
+
+/* ナビゲーションのレイアウト */
+#nav-pc {
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+/* ナビゲーションのリンクの装飾設定 */
+#nav-pc>a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#nav-pc>a:link {
+    color: #0d0d0d;
+}
+
+#nav-pc>a:visited {
+    color: #0d0d0d;
+}
+
+#nav-pc>a:hover {
+    color: #0d0d0d;
+    text-decoration: underline;
+}
+
+#nav-pc>a:active {
+    color: #0d0d0d;
+}
+/* メインビジュアル*/
+#growth {
+    position: relative;
+    height: 400px;
+
+}
+
+#growth-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:palevioletred;
+    max-width: 620px;
+    height: 100%;
+    width: 100%;
+    z-index: 11;
+}
+
+#growth-message>h1 {
+    font-size: 50px;
+    margin: 70px 0 0 50px;
+}
+
+#growth-message>h3 {
+    font-size: 18px;
+    font-style: bold;
+    margin: 30px 0 0 50px;
+}
+
+#growth-message>p {
+    font-size: 10px;
+    color: #000;
+    margin: 0 0 0 50px;
+}
+
+#growth-message >h1>span,#growth-message>h3>span {
+    color: cadetblue;
+}
+
+#growth>img {
+    max-width: 70%;
+    max-height: 75%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.news_title {
+    padding-left: 145px;
+
+}
+
+.news_title>h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.news_title>p {
+    color: palevioletred;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 10px;
+}
+
+#outside {
+    border-top-style: solid;
+    border-top-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-color: gainsboro;
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+#news-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border-bottom-color: #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+
+
+.tableheader,
+.new,
+.notice {
+    padding: 5px;
+    border-bottom-color: #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-size: 10px;
+}
+
+.news-dec {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(191, 40, 90);
+    color: white;
+    width: 70px;
+    text-align: center;
+}
+
+.notice {
+    width: 150px;
+}
+
+#technology {
+    background-color: #fafafa;
+    text-align: center;
+    
+}
+
+.technology_title{
+    margin-top: 20px;
+}
+
+.technology_title>p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: palevioletred;
+    font-size: 10px;
+}
+
+.technology_title>h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.about-a {
+    margin: 20px;
+    display: flex;
+}
+
+.about-a>p {
+    width: 40%;
+    padding: 20px;
+    text-align: left;
+    font-size: 10px;
+
+}
+
+.about-a>img {
+    width: 40%;
+    height: 40%;
+    padding: 30px;
+    text-align: left;
+}
+
+
+}
