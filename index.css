@@ -8,7 +8,6 @@ PC用のスタイル
 
 
 
-@media screen and (min-width: 768px) {
 
 
 
@@ -60,6 +59,11 @@ PC用のスタイル
 #growth {
     position: relative;
     height: 400px;
+}
+
+.growth-container{
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 #growth-message {
