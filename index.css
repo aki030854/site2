@@ -11,12 +11,7 @@ PC用のスタイル
 
 
 
-    body {
-        max-width: 1080px;
-        min-width: 960px;
-        margin: 0 auto ;
-    }
-
+   
     /* ヘッダー */
     header {
         display: flex;
@@ -102,9 +97,8 @@ PC用のスタイル
     color: cadetblue;
 }
 
-#growth>img {
-    max-width: 60%;
-    max-height: 90%;
+.growth-container>img {
+    width: 60%;
     position: absolute;
     top: 50px;
     right: 0;
@@ -116,6 +110,10 @@ PC用のスタイル
     margin-bottom: 30px;
 }
 
+.news-container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
 
 .news_title {
     padding-left: 200px;
@@ -179,6 +177,11 @@ PC用のスタイル
     margin-top: 30px;
 }
 
+.technology-container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
 .technology_title >p{
     margin-top: 0;
     margin-bottom: 0;
@@ -207,6 +210,13 @@ PC用のスタイル
     padding: 30px;
     text-align: left;
 }
+
+.service-container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
 .service_title>p {
     margin-top: 0;
     margin-bottom: 0;
@@ -275,6 +285,11 @@ PC用のスタイル
 
 #blog {
     background-color: #fafafafa;
+}
+
+.blog-container {
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 .blog_title {
@@ -369,6 +384,11 @@ PC用のスタイル
 
     }
 
+.company-container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
 .company-tit {
     margin-left: 140px;
 }
@@ -404,6 +424,11 @@ PC用のスタイル
 #imgs{
     display: flex;
     margin-top: 30px;
+}
+
+.imgs-container {
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 .recruit,.interview{
@@ -468,7 +493,7 @@ margin-top: 5em;
     margin-right: 30px;
 }
 
-}
+
 
 
 
