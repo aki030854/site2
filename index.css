@@ -220,6 +220,10 @@ PC用のスタイル
     margin: 0 auto;
 }
 
+.service_title{
+    padding: 40px;
+    margin-right: 80px;
+}
 
 .service_title>p {
     margin-top: 0;
@@ -239,41 +243,56 @@ PC用のスタイル
     height: 50%;
 }
 
+
+/* サービス左側の画像と文字のセット*/
 .left-img{
     width: 100%;
     
     background-color: aqua;
 }
 
+/* サービス左側の文字*/
+
 .education-left>h3{
     text-align: center;
 }
 
+/* サービス左側の画像そのもの*/
 .service-ing{
-    width: 62%;
+    object-fit: cover;
+    width: 50%;
+    
     margin: 0 auto;
 
 }
 
+/* サービス右側全体*/
 .right-img {
 
     width:100%;
     
 }
 
+.education-left{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
-
+.education{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 .education-content{
     display: flex;
-    
-
     background-color: red;
+    
 }
 
 .service-img{
+    object-fit: cover;
     width: 100%;
-    height: 50%;
+    
 
 }
 
