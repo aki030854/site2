@@ -223,6 +223,7 @@ PC用のスタイル
 .service_title{
     padding: 40px;
     margin-right: 80px;
+    
 }
 
 .service_title>p {
@@ -231,7 +232,7 @@ PC用のスタイル
     color: palevioletred;
 }
 
-.service_title>h2 {
+.service_title>h3 {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -281,6 +282,7 @@ PC用のスタイル
 .education{
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 .education-content{
@@ -308,6 +310,8 @@ PC用のスタイル
 
 #blog {
     background-color: #fafafafa;
+    margin-top:30px;
+    margin-bottom: 40px;
 }
 
 .blog-container {
@@ -333,8 +337,9 @@ PC用のスタイル
 
 .tree-blog {
     display: flex;
-    justify-content: center;
-    padding: 60px;
+    justify-content: space-between;
+    margin: 80px;
+    
 }
 
 .blog-card{
@@ -397,14 +402,13 @@ PC用のスタイル
 
 .blog-botton{
     width:20%;
-    padding:5px;
     color:palevioletred;
     border-radius: 30px;
     background-color: white;
     text-align: center;
     border: 3px solid palevioletred;
     margin: 10px auto 0;
-
+    
     }
 
 .company-container {
@@ -445,23 +449,31 @@ PC用のスタイル
 }
 
 #imgs{
-    display: flex;
+    
     margin-top: 30px;
 }
 
 .imgs-container {
     max-width: 1080px;
     margin: 0 auto;
+    display: flex;
 }
 
 .recruit,.interview{
     position: relative;
+    
 }
 
 .recruit-img,.interview-img{
-    width: 30%;
+    width: 110%;
 
 
+}
+
+.recruit-img>img,.interview-img>img{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto
 }
 
 .recruit-content,.interview-content{
@@ -516,6 +528,13 @@ margin-top: 5em;
     margin-right: 30px;
 }
 
+footer{
+    font-size: small;
+    color:#888888;
+    text-align: center;
+    margin: 30px;
+}
+
 
 
 
@@ -532,10 +551,7 @@ margin-top: 5em;
 
 @media screen and (max-width: 767px) {
 
-body {
-        min-width: 375px;
-        margin: 0;
-    }
+
 /* ヘッダー */
 header {
     display: flex;
@@ -578,9 +594,9 @@ header > img {
 /* メインビジュアル*/
 #growth {
     position: relative;
-    height: 400px;
-
+    
 }
+
 
 #growth-message {
     position: absolute;
@@ -588,13 +604,12 @@ header > img {
     left: 0;
     color:palevioletred;
     max-width: 620px;
-    height: 100%;
     width: 100%;
     z-index: 11;
 }
 
 #growth-message>h1 {
-    font-size: 50px;
+    font-size: 25px;
     margin: 70px 0 0 50px;
 }
 
@@ -624,7 +639,7 @@ header > img {
 }
 
 .news_title {
-    padding-left: 145px;
+    padding-left: 5%;
 
 }
 
@@ -646,13 +661,12 @@ header > img {
     border-top-color: gainsboro;
     border-bottom-style: solid;
     border-bottom-color: gainsboro;
-    width: 70%;
-    height: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
 #news-table {
-    width: 70%;
+    width: 100%;
     border-collapse: collapse;
     margin: 0 auto;
     border-bottom-color: #ececec;
@@ -676,12 +690,12 @@ header > img {
     border-radius: 10px 10px 10px 10px;
     background-color: rgb(191, 40, 90);
     color: white;
-    width: 70px;
+    width: 100%;
     text-align: center;
 }
 
 .notice {
-    width: 150px;
+    width: 55%;
 }
 
 #technology {
@@ -708,24 +722,59 @@ header > img {
 }
 
 .about-a {
-    margin: 20px;
+    margin: 10px;
     display: flex;
 }
 
 .about-a>p {
     width: 40%;
-    padding: 20px;
+    padding: 5px;
     text-align: left;
     font-size: 10px;
 
 }
 
 .about-a>img {
-    width: 40%;
-    height: 40%;
-    padding: 30px;
+    width: 50%;
+    
+    padding: 15px;
     text-align: left;
 }
 
+
+.service-acount {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+/* サービス左側の画像そのもの*/
+.service-ing {
+    object-fit: cover;
+    width: 50%;
+
+    margin: 0 auto;
+
+}
+
+
+.education-left {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.education {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.service-img {
+    object-fit: cover;
+    width: 100%;
+
+
+}
 
 }
