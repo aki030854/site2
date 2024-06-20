@@ -342,7 +342,7 @@ PC用のスタイル
     
 }
 
-.blog-card{
+.blog-card,.blog-card1{
     position: relative;
     width:  30%;
     margin-right: 25px;
@@ -724,21 +724,25 @@ header > img {
 .about-a {
     margin: 10px;
     display: flex;
+    flex-wrap: column;
 }
 
 .about-a>p {
     width: 40%;
     padding: 5px;
     text-align: left;
-    font-size: 10px;
+    font-size: 8px;
+    
+
 
 }
 
 .about-a>img {
-    width: 50%;
-    
-    padding: 15px;
+    width: 30%;
+    padding: 5px;
     text-align: left;
+    
+
 }
 
 
@@ -752,7 +756,7 @@ header > img {
 /* サービス左側の画像そのもの*/
 .service-ing {
     object-fit: cover;
-    width:100%;
+    width:45%;
 
     margin: 0 auto;
 
@@ -783,6 +787,24 @@ header > img {
 
 .education-left>h3 {
     text-align: left;
+    font-size: 12px;
 }
 
+.education-left>p{
+    font-size: 13px;
+}
+
+.tree-blog{
+    display: none;
+}
+
+
+
+.blog-sv{
+    position: relative;
+    width: 70%;
+    margin-right: 5px;
+    text-align: center;
+    
+}
 }
