@@ -752,12 +752,16 @@ header > img {
 /* サービス左側の画像そのもの*/
 .service-ing {
     object-fit: cover;
-    width: 50%;
+    width:100%;
 
     margin: 0 auto;
 
 }
 
+.left-img{
+    display: flex;
+    width: 100%;
+}
 
 .education-left {
     padding-left: 5px;
@@ -775,6 +779,10 @@ header > img {
     width: 100%;
 
 
+}
+
+.education-left>h3 {
+    text-align: left;
 }
 
 }
