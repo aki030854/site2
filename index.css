@@ -411,6 +411,10 @@ PC用のスタイル
     
     }
 
+.blog-sv {
+   display: none;
+}
+
 .company-container {
     max-width: 1080px;
     margin: 0 auto;
@@ -801,10 +805,20 @@ header > img {
 
 
 .blog-sv{
+    display: block;
     position: relative;
     width: 70%;
     margin-right: 5px;
-    text-align: center;
-    
+    margin: 0 auto 
 }
+
+.blog-botton {
+    width: 50%;
+    color: palevioletred;
+
+   
+    margin: 0 auto;
+
+}
+
 }
