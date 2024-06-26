@@ -468,11 +468,15 @@ PC用のスタイル
     
 }
 
-.recruit-img,.interview-img{
-    width: 110%;
 
+
+.recruit-img,.interview-img{
+    width: 100%;
 
 }
+
+
+
 
 .recruit-img>img,.interview-img>img{
     width: 90%;
@@ -526,10 +530,14 @@ margin-top: 5em;
     margin-top: 20px;
 }
 
+
+
 .practice__btn:before {
     content: url(img/cman.png);
-    margin-top: 30px;
-    margin-right: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    transform: scale(0.8);
+    padding-right: 10%;
 }
 
 footer{
@@ -725,15 +733,11 @@ header > img {
     font-size: 15px;
 }
 
-.about-a {
-    margin: 10px;
-    display: flex;
-    flex-wrap: column;
-}
+
 
 .about-a>p {
     width: 40%;
-    padding: 5px;
+    padding: 5%;
     text-align: left;
     font-size: 8px;
     
@@ -742,8 +746,8 @@ header > img {
 }
 
 .about-a>img {
-    width: 30%;
-    padding: 5px;
+    width: 40%;
+    padding: 5%;
     text-align: left;
     
 
@@ -760,7 +764,7 @@ header > img {
 /* サービス左側の画像そのもの*/
 .service-ing {
     object-fit: cover;
-    width:45%;
+    width:80%;
 
     margin: 0 auto;
 
@@ -791,12 +795,9 @@ header > img {
 
 .education-left>h3 {
     text-align: left;
-    font-size: 12px;
+    
 }
 
-.education-left>p{
-    font-size: 13px;
-}
 
 .tree-blog{
     display: none;
@@ -808,17 +809,22 @@ header > img {
     display: block;
     position: relative;
     width: 70%;
-    margin-right: 5px;
     margin: 0 auto 
 }
 
 .blog-botton {
     width: 50%;
     color: palevioletred;
-
-   
     margin: 0 auto;
 
+}
+
+#company-table{
+    width: 90%;
+}
+
+.company-tableheader{
+    width: 35%;
 }
 
 }
