@@ -1,7 +1,3 @@
-
-
-
-
 /*================
 PC用のスタイル
 =================*/
@@ -11,22 +7,23 @@ PC用のスタイル
 
 
 
-   
-    /* ヘッダー */
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
 
-    header > img {
-        width: 20%;
-    }
+/* ヘッダー */
+header {
+    display: flex;
+    justify-content: space-between;
+}
 
-    /* ナビゲーションのレイアウト */
-    #nav-pc {
-        font-size: 14px;
-        padding-top: 15px;
-    }
+header>img {
+    width: 20%;
+}
+
+/* ナビゲーションのレイアウト */
+#nav-pc {
+    font-size: 14px;
+    padding-top: 15px;
+}
+
 /* ナビゲーションのリンクの装飾設定 */
 #nav-pc>a {
     text-decoration: none;
@@ -56,7 +53,7 @@ PC用のスタイル
     height: 400px;
 }
 
-.growth-container{
+.growth-container {
     max-width: 1080px;
     margin: 0 auto;
 }
@@ -110,7 +107,7 @@ PC用のスタイル
     margin-bottom: 30px;
 }
 
-.news-container{
+.news-container {
     max-width: 1080px;
     margin: 0 auto;
 }
@@ -119,22 +116,22 @@ PC用のスタイル
     padding-left: 200px;
 }
 
-.news_title>h2{
+.news_title>h2 {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.news_title >p{
-    color:palevioletred ;
+.news_title>p {
+    color: palevioletred;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-#outside{
+#outside {
     border-top-style: solid;
     border-top-color: gainsboro;
     border-bottom-style: solid;
-    border-bottom-color:gainsboro; 
+    border-bottom-color: gainsboro;
     width: 70%;
     height: 80%;
     margin: 0 auto;
@@ -160,19 +157,20 @@ PC用のスタイル
     border-bottom-style: solid;
 }
 
-.news-dec{
+.news-dec {
     border-radius: 30px 30px 30px 30px;
     background-color: rgb(191, 40, 90);
     color: white;
     width: 90px;
     text-align: center;
 }
+
 .notice {
     width: 300px;
 }
 
 #technology {
-    background-color:#fafafa ;
+    background-color: #fafafa;
     text-align: center;
     margin-top: 30px;
 }
@@ -182,13 +180,13 @@ PC用のスタイル
     margin: 0 auto;
 }
 
-.technology_title >p{
+.technology_title>p {
     margin-top: 0;
     margin-bottom: 0;
     color: palevioletred;
 }
 
-.technology_title >h2{
+.technology_title>h2 {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -198,7 +196,7 @@ PC用のスタイル
     display: flex;
 }
 
-.about-a >p{
+.about-a>p {
     width: 50%;
     padding-left: 70px;
     padding-right: 30px;
@@ -206,8 +204,9 @@ PC用のスタイル
     text-align: left;
 
 }
+
 /* テクノロジー左側の画像*/
-.about-a >img {
+.about-a>img {
     width: 41%;
     padding-right: 70px;
     padding-left: 30px;
@@ -220,10 +219,10 @@ PC用のスタイル
     margin: 0 auto;
 }
 
-.service_title{
+.service_title {
     padding: 40px;
     margin-right: 80px;
-    
+
 }
 
 .service_title>p {
@@ -237,7 +236,7 @@ PC用のスタイル
     margin-bottom: 0;
 }
 
-.service-acount{
+.service-acount {
     display: flex;
     margin: 0 auto;
     width: 80%;
@@ -246,23 +245,23 @@ PC用のスタイル
 
 
 /* サービス左側の画像と文字のセット*/
-.left-img{
+.left-img {
     width: 100%;
-    
+
     background-color: aqua;
 }
 
 /* サービス左側の文字*/
 
-.education-left>h3{
+.education-left>h3 {
     text-align: center;
 }
 
 /* サービス左側の画像そのもの*/
-.service-ing{
+.service-ing {
     object-fit: cover;
     width: 50%;
-    
+
     margin: 0 auto;
 
 }
@@ -270,35 +269,35 @@ PC用のスタイル
 /* サービス右側全体*/
 .right-img {
 
-    width:100%;
-    
+    width: 100%;
+
 }
 
-.education-left{
+.education-left {
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.education{
+.education {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
 }
 
-.education-content{
+.education-content {
     display: flex;
     background-color: red;
-    
+
 }
 
-.service-img{
+.service-img {
     object-fit: cover;
     width: 100%;
-    
+
 
 }
 
-.education-co{
+.education-co {
     display: flex;
     width: 100%;
 
@@ -310,7 +309,7 @@ PC用のスタイル
 
 #blog {
     background-color: #fafafafa;
-    margin-top:30px;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 
@@ -323,13 +322,13 @@ PC用のスタイル
     padding: 20px;
 }
 
-.blog_title >h2 {
+.blog_title>h2 {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 18px;
 }
 
-.blog_title >p {
+.blog_title>p {
     margin-top: 0;
     margin-bottom: 0;
     color: palevioletred;
@@ -339,35 +338,36 @@ PC用のスタイル
     display: flex;
     justify-content: space-between;
     margin: 80px;
-    
+
 }
 
-.blog-card,.blog-card1{
+.blog-card,
+.blog-card1 {
     position: relative;
-    width:  30%;
+    width: 30%;
     margin-right: 25px;
     display: inline-block;
 }
 
-.blog-img{
+.blog-img {
     position: relative;
 }
 
-.blog-img>p{
+.blog-img>p {
     position: absolute;
     color: white;
     top: 0;
-        /*左上に配置*/
+    /*左上に配置*/
     left: 0;
-        /*左上に配置*/
+    /*左上に配置*/
     background-color: palevioletred;
     border-radius: 20px 0 0 0;
     padding: 0.3rem 0.5rem;
-        /*文字の回りの余白*/
+    /*文字の回りの余白*/
     margin: 0;
 }
 
-.blog-img img{
+.blog-img img {
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
@@ -377,7 +377,7 @@ PC用のスタイル
 
 
 
-.blog-content{
+.blog-content {
     background-color: white;
     margin-top: 0;
     margin-bottom: 0;
@@ -389,7 +389,7 @@ PC用のスタイル
     text-align: right;
 }
 
-.blog-day{
+.blog-day {
     display: inline-block;
     color: #888888;
 }
@@ -400,19 +400,19 @@ PC用のスタイル
     color: #888888;
 }
 
-.blog-botton{
-    width:20%;
-    color:palevioletred;
+.blog-botton {
+    width: 20%;
+    color: palevioletred;
     border-radius: 30px;
     background-color: white;
     text-align: center;
     border: 3px solid palevioletred;
     margin: 10px auto 0;
-    
-    }
+
+}
 
 .blog-sv {
-   display: none;
+    display: none;
 }
 
 .company-container {
@@ -436,11 +436,13 @@ PC用のスタイル
     color: palevioletred;
 }
 
-#company-table{
+#company-table {
     margin: 0 auto;
     border-collapse: collapse;
 }
-.company-tableheader,.company-cell{
+
+.company-tableheader,
+.company-cell {
 
     padding: 10px;
     border: 1px solid #ddd;
@@ -448,12 +450,12 @@ PC用のスタイル
 
 }
 
-.company-tableheader{
+.company-tableheader {
     background-color: #f2f2f2;
 }
 
-#imgs{
-    
+#imgs {
+
     margin-top: 30px;
 }
 
@@ -463,14 +465,16 @@ PC用のスタイル
     display: flex;
 }
 
-.recruit,.interview{
+.recruit,
+.interview {
     position: relative;
-    
+
 }
 
 
 
-.recruit-img,.interview-img{
+.recruit-img,
+.interview-img {
     width: 100%;
 
 }
@@ -478,13 +482,15 @@ PC用のスタイル
 
 
 
-.recruit-img>img,.interview-img>img{
+.recruit-img>img,
+.interview-img>img {
     width: 90%;
     text-align: center;
     margin: 0 auto
 }
 
-.recruit-content,.interview-content{
+.recruit-content,
+.interview-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -492,14 +498,14 @@ PC用のスタイル
     transform: translate(-50%, -50%);
 }
 
-.question-tit{
-text-align: center;
-margin-top: 5em;
+.question-tit {
+    text-align: center;
+    margin-top: 5em;
 }
 
 
 
-.vertical{
+.vertical {
     height: 100%;
     margin: 0;
     display: flex;
@@ -507,15 +513,16 @@ margin-top: 5em;
     align-items: center;
 }
 
-.vertical-line{
+.vertical-line {
 
-            width: 0.2em;
-            /* 縦線の幅 */
-            height: 3em;
-            /* 縦線の高さ */
-            background-color: palevioletred;
-            /* 縦線の色 */
-        }
+    width: 0.2em;
+    /* 縦線の幅 */
+    height: 3em;
+    /* 縦線の高さ */
+    background-color: palevioletred;
+    /* 縦線の色 */
+}
+
 .practice__btn {
     width: 200px;
     padding: 10px 0;
@@ -540,9 +547,9 @@ margin-top: 5em;
     padding-right: 10%;
 }
 
-footer{
+footer {
     font-size: small;
-    color:#888888;
+    color: #888888;
     text-align: center;
     margin: 30px;
 }
@@ -564,267 +571,273 @@ footer{
 @media screen and (max-width: 767px) {
 
 
-/* ヘッダー */
-header {
-    display: flex;
-    justify-content: space-between;
-}
+    /* ヘッダー */
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
 
-header > img {
-    width: 30%;
-    height: 30%;
-}
+    header>img {
+        width: 30%;
+        height: 30%;
+    }
 
-/* ナビゲーションのレイアウト */
-#nav-pc {
-    font-size: 14px;
-    padding-top: 15px;
-}
+    /* ナビゲーションのレイアウト */
+    #nav-pc {
+        font-size: 14px;
+        padding-top: 15px;
+    }
 
-/* ナビゲーションのリンクの装飾設定 */
-#nav-pc>a {
-    text-decoration: none;
-    margin-left: 20px;
-}
+    /* ナビゲーションのリンクの装飾設定 */
+    #nav-pc>a {
+        text-decoration: none;
+        margin-left: 20px;
+    }
 
-#nav-pc>a:link {
-    color: #0d0d0d;
-}
+    #nav-pc>a:link {
+        color: #0d0d0d;
+    }
 
-#nav-pc>a:visited {
-    color: #0d0d0d;
-}
+    #nav-pc>a:visited {
+        color: #0d0d0d;
+    }
 
-#nav-pc>a:hover {
-    color: #0d0d0d;
-    text-decoration: underline;
-}
+    #nav-pc>a:hover {
+        color: #0d0d0d;
+        text-decoration: underline;
+    }
 
-#nav-pc>a:active {
-    color: #0d0d0d;
-}
-/* メインビジュアル*/
-#growth {
-    position: relative;
-    
-}
+    #nav-pc>a:active {
+        color: #0d0d0d;
+    }
 
+    /* メインビジュアル*/
+    #growth {
+        position: relative;
+        height: 200px;
 
-#growth-message {
-    position: absolute;
-    top: 0;
-    left: 0;
-    color:palevioletred;
-    max-width: 620px;
-    width: 100%;
-    z-index: 11;
-}
-
-#growth-message>h1 {
-    font-size: 25px;
-    margin: 70px 0 0 50px;
-}
-
-#growth-message>h3 {
-    font-size: 18px;
-    font-style: bold;
-    margin: 30px 0 0 50px;
-}
-
-#growth-message>p {
-    font-size: 10px;
-    color: #000;
-    margin: 0 0 0 50px;
-}
-
-#growth-message >h1>span,#growth-message>h3>span {
-    color: cadetblue;
-}
-
-#growth>img {
-    max-width: 70%;
-    max-height: 75%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 10;
-}
-
-.news_title {
-    padding-left: 5%;
-
-}
-
-.news_title>h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 15px;
-}
-
-.news_title>p {
-    color: palevioletred;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 10px;
-}
-
-#outside {
-    border-top-style: solid;
-    border-top-color: gainsboro;
-    border-bottom-style: solid;
-    border-bottom-color: gainsboro;
-    width: 100%;
-    margin: 0 auto;
-}
-
-#news-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0 auto;
-    border-bottom-color: #ececec;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-}
+    }
 
 
+    #growth-message {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: palevioletred;
+        max-width: 620px;
+        width: 100%;
+        z-index: 11;
+    }
 
-.tableheader,
-.new,
-.notice {
-    padding: 5px;
-    border-bottom-color: #ececec;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    font-size: 10px;
-}
+    #growth-message>h1 {
+        font-size: 25px;
+        margin: 70px 0 0 50px;
+    }
 
-.news-dec {
-    border-radius: 10px 10px 10px 10px;
-    background-color: rgb(191, 40, 90);
-    color: white;
-    width: 100%;
-    text-align: center;
-}
+    #growth-message>h3 {
+        font-size: 18px;
+        font-style: bold;
+        margin: 30px 0 0 50px;
+    }
 
-.notice {
-    width: 55%;
-}
+    #growth-message>p {
+        font-size: 10px;
+        color: #000;
+        margin: 0 0 0 50px;
+    }
 
-#technology {
-    background-color: #fafafa;
-    text-align: center;
-    
-}
+    #growth-message>h1>span,
+    #growth-message>h3>span {
+        color: cadetblue;
+    }
 
-.technology_title{
-    margin-top: 20px;
-}
+    #growth>img {
+        max-width: 70%;
+        max-height: 75%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 10;
+    }
 
-.technology_title>p {
-    margin-top: 0;
-    margin-bottom: 0;
-    color: palevioletred;
-    font-size: 10px;
-}
+    .news_title {
+        padding-left: 5%;
 
-.technology_title>h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 15px;
-}
+    }
+
+    .news_title>h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+
+    .news_title>p {
+        color: palevioletred;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 10px;
+    }
+
+    #outside {
+        border-top-style: solid;
+        border-top-color: gainsboro;
+        border-bottom-style: solid;
+        border-bottom-color: gainsboro;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #news-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 auto;
+        border-bottom-color: #ececec;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+    }
 
 
 
-.about-a>p {
-    width: 40%;
-    padding: 5%;
-    text-align: left;
-    font-size: 8px;
-    
+    .tableheader,
+    .new,
+    .notice {
+        padding: 5px;
+        border-bottom-color: #ececec;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        font-size: 10px;
+    }
 
+    .news-dec {
+        border-radius: 10px 10px 10px 10px;
+        background-color: rgb(191, 40, 90);
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
 
-}
+    .notice {
+        width: 55%;
+    }
 
-.about-a>img {
-    width: 40%;
-    padding: 5%;
-    text-align: left;
-    
+    #technology {
+        background-color: #fafafa;
+        text-align: center;
 
-}
+    }
 
+    .technology_title {
+        margin-top: 20px;
+    }
 
-.service-acount {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    
-}
+    .technology_title>p {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: palevioletred;
+        font-size: 10px;
+    }
 
-/* サービス左側の画像そのもの*/
-.service-ing {
-    object-fit: cover;
-    width:80%;
-
-    margin: 0 auto;
-
-}
-
-.left-img{
-    display: flex;
-    width: 100%;
-}
-
-.education-left {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.education {
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-}
-
-.service-img {
-    object-fit: cover;
-    width: 100%;
-
-
-}
-
-.education-left>h3 {
-    text-align: left;
-    
-}
-
-
-.tree-blog{
-    display: none;
-}
+    .technology_title>h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
 
 
 
-.blog-sv{
-    display: block;
-    position: relative;
-    width: 70%;
-    margin: 0 auto 
-}
+    .about-a>p {
+        width: 40%;
+        padding: 5%;
+        text-align: left;
+        font-size: 8px;
 
-.blog-botton {
-    width: 50%;
-    color: palevioletred;
-    margin: 0 auto;
 
-}
 
-#company-table{
-    width: 90%;
-}
+    }
 
-.company-tableheader{
-    width: 35%;
-}
+    .about-a>img {
+        width: 45%;
+        padding: 5%;
+        margin: 0 0 0 auto;
 
+
+    }
+
+
+    .service-acount {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+
+    }
+
+    /* サービス左側の画像そのもの*/
+    .service-ing {
+        object-fit: cover;
+        width: 80%;
+
+        margin: 0 auto;
+
+    }
+
+    .left-img {
+        display: flex;
+        width: 100%;
+    }
+
+    .education-left {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .education {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+
+    .service-img {
+        object-fit: cover;
+        width: 100%;
+
+
+    }
+
+    .education-left>h3 {
+        text-align: left;
+
+    }
+
+
+    .tree-blog {
+        display: none;
+    }
+
+
+
+    .blog-sv {
+        display: block;
+        position: relative;
+        width: 70%;
+        margin: 0 auto
+    }
+
+    .blog-botton {
+        width: 50%;
+        color: palevioletred;
+        margin: 0 auto;
+
+    }
+
+    #company-table {
+        width: 90%;
+    }
+
+    .company-tableheader {
+        width: 35%;
+    }
+
+    .recruit-img>img{
+        width: 100%;
+    }
 }
