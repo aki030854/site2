@@ -319,7 +319,8 @@ header>img {
 }
 
 .blog_title {
-    padding: 20px;
+    padding-left: 8%;
+    padding-bottom: 5%;
 }
 
 .blog_title>h2 {
@@ -335,9 +336,10 @@ header>img {
 }
 
 .tree-blog {
+    width: 85%;
     display: flex;
     justify-content: space-between;
-    margin: 80px;
+    margin: 0 auto;
 
 }
 
@@ -370,6 +372,7 @@ header>img {
 .blog-img img {
     width: 100%;
     border-radius: 20px 20px 0 0;
+    vertical-align: bottom;
 }
 
 
@@ -400,6 +403,12 @@ header>img {
     color: #888888;
 }
 
+.botton-content {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
 .blog-botton {
     width: 20%;
     color: palevioletred;
@@ -408,6 +417,7 @@ header>img {
     text-align: center;
     border: 3px solid palevioletred;
     margin: 10px auto 0;
+
 
 }
 
@@ -484,7 +494,7 @@ header>img {
 
 .recruit-img>img,
 .interview-img>img {
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin: 0 auto
 }
@@ -767,7 +777,7 @@ footer {
     .service-acount {
         display: block;
         margin: 0 auto;
-        width: 100%;
+        width: 80%;
 
     }
 
@@ -837,7 +847,7 @@ footer {
         width: 35%;
     }
 
-    .recruit-img>img{
+    .recruit-img>img {
         width: 100%;
     }
 }
